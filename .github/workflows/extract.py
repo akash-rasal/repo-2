@@ -1,9 +1,9 @@
 import pandas as pd
 print("Extract Data")
 
-data={
+data= {
     "id": [1, 2, 3],
-    "name": ["Alice", "Bob", "Charlie"]
+    "name": ["Alice", "Bob", "Charlie"],
     "age": [25, 30, 35]
 }
 

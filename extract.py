@@ -1,1 +1,0 @@
-print("Extract data from databases")

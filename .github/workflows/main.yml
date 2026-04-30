@@ -9,7 +9,7 @@ jobs:
         steps:
         - name: Checkout code
           uses: actions/checkout@v2
-        - name: Run ETL script
+        - name: extract the code
           run: python extract.py
 
     transform_job:
@@ -18,7 +18,7 @@ jobs:
         steps:
         - name: Checkout code
           uses: actions/checkout@v2
-        - name: Run ETL script
+        - name: transform the code
           run: python transform.py
           
     load_job:
@@ -27,7 +27,7 @@ jobs:
         steps:
         - name: Checkout code
           uses: actions/checkout@v2
-        - name: Run ETL script
+        - name: load the code
           run: python load.py
             
             
